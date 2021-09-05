@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-section{
+    padding: 0;
+    width: 100%;
+}
+.about-container{
+    width: 100%;
+    padding: 0;
+}
+.about-color-container{
+    background-color: #338583;
+    height: 85vh;
+    width: 100%;    
+}
+.about-img{
+    background: url('https://images.unsplash.com/photo-1591825729269-caeb344f6df2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') no-repeat center;
+    background-size:cover;
+    width: 95%;
+    height: 50vh;
+
+}
+.about-span{
+    position: relative;
+    top: 50px;
+    left: -60px;
+    background-color: #fed9bf;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-grid{
+  margin: 4rem auto;
+}
+
+.first-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-grid-img img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid black;
+}
+.first-grid-text{
+    width: 400px;
+    font-weight: 700;
+    font-size: 1em;
+    margin: 1rem 0;
+}
+.second-grid{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: -60px;
+}
+.second-grid-text{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 4rem 0;
+}
+.text1{
+    color: white;
+}
+
+
+.team-container h3{
+    color:#338583;
+    margin-bottom: 1.5rem;
+   
+    font-weight: 700;
+}
+
+.team-card{
+    padding: 0;
+    border: none;
+}
+.card-body{
+    padding: 1rem 0;
+}
+
+.team-card img{
+    border-left: 6px solid grey;
+}
+.card-title{
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.card-text{
+    font-weight: 500;
+}
+
+@media screen and (max-width:991px) {
+    .second-grid-text{
+        position: relative;
+        top:80px;
+        margin: 2rem 0;
+    }
+}
