@@ -73,7 +73,9 @@
 .second-grid-text{
     font-size: 1.1em;
     font-weight: 600;
-    margin: 4rem 0;
+    margin: 2rem 0;
+    position: relative;
+    top: -20px;
 }
 .text1{
     color: white;
@@ -109,7 +111,7 @@
 @media screen and (max-width:991px) {
     .second-grid-text{
         position: relative;
-        top:80px;
+        top:10px;
         margin: 2rem 0;
     }
     .text2{
@@ -118,11 +120,6 @@
   
 }
 @media screen and (max-width:530px) {
-    .second-grid-text{
-        position: relative;
-        top:30px;
-        margin: 2rem 0;
-    }
     .first-grid-img img{
         width: 90%;
         height: 90%;
